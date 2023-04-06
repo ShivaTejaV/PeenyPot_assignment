@@ -1,0 +1,39 @@
+.nav-bar {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 3%;
+}
+
+.logo {
+  width: 15vw;
+}
+
+.menu {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+  margin-right: 5%;
+  font-size: 15px;
+}
+
+.menu-item {
+  margin-right: 35px;
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 20vw;
+  }
+  .menu {
+    margin-right: 20%;
+    font-size: 10px;
+  }
+}

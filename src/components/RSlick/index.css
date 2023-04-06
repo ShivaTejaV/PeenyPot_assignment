@@ -1,0 +1,32 @@
+.slider {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.slick-prev:before {
+  color: #ffffff;
+}
+
+.slick-next:before {
+  color: #ffffff;
+}
+
+.slide {
+  text-align: center;
+  color: #ffffff;
+}
+
+.button1 {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-family: Roboto;
+  font-weight: 600;
+  height: 5vh;
+  width: 8vw;
+  min-height: 30px;
+  min-width: 90px;
+  border: none;
+  margin-top: 3vh;
+  margin-bottom: 6vh;
+}
